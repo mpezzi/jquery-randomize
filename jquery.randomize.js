@@ -1,5 +1,5 @@
 /**
- * jQuery Word Count Plugin by M. Pezzi
+ * jQuery Randomize Plugin by M. Pezzi
  * http://thespiral.ca/jquery/randomize/demo/
  * Version: 1.0 (08/08/11)
  * Dual licensed under the MIT and GPL licences:

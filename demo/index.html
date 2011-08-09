@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <title>jQuery Randomize Plugin</title>
+  
+  <style type="text/css" media="screen">
+  
+    body {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 12px;
+      line-height: 20px;
+      color: #333;
+    }
+    
+  </style>
+  
+</head>
+
+<body>
+
+  <div id="container">
+    
+    <h1>jQuery Randomize Plugin</h1>
+    
+    <h2><a href="https://github.com/mpezzi/jquery-randomize">Fork me on Github</a></h2>
+    
+    <pre>$('ul.randomize').randomize('li');</pre>
+    
+    <ul class="randomize">
+      <li>One</li>
+      <li>Two</li>
+      <li>Three</li>
+      <li>Four</li>
+      <li>Five</li>
+    </ul>
+    
+  </div>
+  
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+  <script type="text/javascript" src="../jquery.randomize.js"></script>
+  <script type="text/javascript">
+    $(function(){
+      $('ul.randomize').randomize('li');
+    });
+  </script>
+
+</body>
+</html>
